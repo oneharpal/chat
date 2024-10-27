@@ -1,5 +1,3 @@
-<% content_for :title, "Editing room" %>
-
 <h1>Editing room</h1>
 
 <%= turbo_frame_tag "room" do %>
@@ -8,6 +6,6 @@
 <br>
 
 <div>
-  <%= link_to "Show this room", @room %> |
-  <%= link_to "Back to rooms", rooms_path %>
+  <%= link_to "Show", @room %> |
+  <%= link_to "Back", rooms_path %>
 </div>
